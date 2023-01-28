@@ -1,0 +1,40 @@
+.primary-button-small {
+  /* Frame 481562 */
+
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 3px 40px;
+  gap: 10px;
+
+  width: 127px;
+  height: 38px;
+
+  background: #03C39A;
+  border-radius: 6px;
+  border-color: transparent;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+
+  /* Text */
+
+  font-family: 'Atyp Text';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+
+  color: #FFFFFF;
+}

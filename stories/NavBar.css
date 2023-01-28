@@ -1,0 +1,126 @@
+.navbar {
+    /* Navigation C */
+    position: absolute;
+    width: 100vw;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+
+    background: #1C1D24;
+}
+
+.navbar-items-container {
+    /* Frame 427318665 */
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+
+    position: absolute;
+    width: 1304.03px;
+    height: 38px;
+    left: 68px;
+    top: 11px;
+
+}
+
+.logo-wrapper {
+    /* Frame */
+
+    width: 183.03px;
+    height: 32.4px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-items-wrapper {
+    /* Frame 427318664 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 50px;
+
+    width: 400px;
+    height: 38px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+@font-face {
+    font-family: 'Atyp Text';
+    src: url('./assets/atype-1-normal.ttf') format('tff');
+}
+
+.nav-items-wrapper .nav-item-text-1 {
+    /* Courses */
+
+    width: 64px;
+    height: 23px;
+
+    font-family: 'Atyp Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #D9D9D9;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.nav-items-wrapper .nav-item-text-2 {
+    /* Pricing */
+
+
+    width: 50px;
+    height: 22px;
+
+    font-family: 'Atyp Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.7);
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
